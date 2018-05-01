@@ -1,0 +1,244 @@
+/*----------------------------------------------------------------------*/
+/*       Custom QM Login BOX  UI By: Husien Adel | KFU 2018 @ 10/04/2018 */
+/*----------------------------------------------------------------------*/
+
+@font-face {
+	font-family: "Noto Naskh Arabic";
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/NotoNaskhArabic-Regular.eot);
+	src: url(../fonts/NotoNaskhArabic-Regular.eot?#iefix)
+			format("embedded-opentype"),
+		url(../fonts/NotoNaskhArabic-Regular.woff2) format("woff2"),
+		url(../fonts/NotoNaskhArabic-Regular.woff) format("woff"),
+		url(../fonts/NotoNaskhArabic-Regular.ttf) format("truetype");
+}
+html {
+	font-size: 17px;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 2.5% 0 0 0;
+	font-family: "Noto Naskh Arabic", serif;
+	color: #fff;
+	-webkit-background-size: cover !important;
+	background-size: cover !important;
+	background: url("../img/bg.png") top center no-repeat;
+	overflow-y: hidden;
+}
+
+.LoginForm {
+	height: 786px;
+	width: 984px;
+	background: url("../img/mac.png") center center no-repeat;
+	margin: 50% auto 0;
+	transform: translate(0%, -50%);
+	position: relative;
+	padding-top: 100px;
+	padding: 0px 0px 0 0;
+}
+
+.LoginForm {
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	left: 0;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+.title .icon {
+	display: inline-block;
+	width: 62px;
+	height: 57px;
+	background: url("../img/icon.png");
+	vertical-align: middle;
+}
+
+.lang {
+	position: absolute;
+	top: 20px;
+	left: 155px;
+}
+
+.lang select {
+	background: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 4px 25px;
+	border-radius: 50px;
+	text-transform: capitalize;
+}
+
+.lang select:hover,
+.lang select:focus {
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.innerBlock {
+	width: 650px;
+	height: 410px;
+	position: absolute;
+	top: 107px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.innerBlock h3 {
+	text-align: center;
+	font-size: 1.3rem;
+	padding: 40px 0 0 0;
+	margin: 0;
+}
+
+.qmLogo {
+	display: block;
+	width: 185px;
+	height: 33px;
+	background: url("../img/qm_logo.png") top center no-repeat;
+	margin: 0 auto;
+}
+
+.logo1 {
+	width: 121px;
+	height: 121ex;
+	background: url("../img/kfu_logo.png") top center no-repeat;
+	display: block;
+	position: absolute;
+	top: 15px;
+	right: 10px;
+}
+
+.logo2 {
+	width: 141px;
+	height: 109ex;
+	background: url("../img/dean_logo.png") top center no-repeat;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+}
+
+.innerBlock form {
+	margin-top: 50px;
+}
+
+.innerBlock form input[type="text"] {
+	width: 75%;
+	display: block;
+	border: none;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 12.5px 10px;
+	border-radius: 50px;
+	margin: 0 auto 30px;
+	font-size: 1rem;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: "fontAwesome", "Noto Naskh Arabic";
+}
+
+.innerBlock form input[type="password"] {
+	width: 75%;
+	display: block;
+	border: none;
+	background-color: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	padding: 12.5px 10px;
+	border-radius: 50px;
+	margin: 0 auto 30px;
+	font-size: 1rem;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	font-family: "fontAwesome", "Noto Naskh Arabic";
+}
+
+.innerBlock form input[type="text"]:hover,
+.innerBlock form input[type="text"]:focus,
+.innerBlock form input[type="password"]:hover,
+.innerBlock form input[type="password"]:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.innerBlock form input[type="text"]:hover,
+.innerBlock form input[type="password"]:hover {
+	width: 78%;
+}
+
+.innerBlock form input[type="submit"] {
+	width: 180px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.3);
+	border: none;
+	padding: 10px 0;
+	border-radius: 50px;
+	margin: 0 auto;
+	display: block;
+	border: 2px solid transparent;
+	font-size: 1rem;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.innerBlock form input[type="submit"]:hover {
+	background-color: #f49611;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	width: 200px;
+}
+
+.innerBlock form input[type="text"]::-webkit-input-placeholder,
+.innerBlock form input[type="password"]::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #fff;
+}
+
+.innerBlock form input[type="text"]::-moz-placeholder,
+.innerBlock form input[type="password"]::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #fff;
+}
+
+.innerBlock form input[type="text"]:-ms-input-placeholder,
+.innerBlock form input[type="password"]:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #fff;
+}
+
+.innerBlock form input[type="text"]:-moz-placeholder,
+.innerBlock form input[type="password"]:-moz-placeholder {
+	/* Firefox 18- */
+	color: #fff;
+}
+
+.rights {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
